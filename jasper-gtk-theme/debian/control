@@ -1,0 +1,13 @@
+Source: jasper-gtk-theme
+Section: gnome
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: jasper-theme-gtk
+Architecture: all
+Depends: ${misc:Depends}, gtk2-engines-murrine,  gnome-themes-extra
+Provides: jasper-theme-gtk3, jasper-theme-gtk4, jasper-theme-gnome-shell
+Description: Jasper gtk theme for linux.
